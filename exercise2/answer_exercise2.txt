@@ -1,0 +1,22 @@
+1. ColorImage.cpp is a program that takes a look at colorspace conversions in OpenCV. Run the code in ColorImage.cpp and comment on the outputs. Implement the same thing in Python and save each image.
+
+Python file and images are shown in the folder exercise1.
+
+2. Print out the values of the pixel at (20,25) in the RGB, YCbCr and HSV versions of the image. What are the ranges of pixel values in each channel of each of the above mentioned colorspaces?
+
+Values of pixel at (20,25) :
+	value at R(20,25): 225
+	value at G(20,25): 122
+	value at B(20,25): 106
+	value at Y(20,25): 151
+	value at Cb(20,25): 181
+	value at Cr(20,25): 103
+	value at Hue(20,25): 4
+	value at Saturation(20,25): 135
+	value at Value(20,25): 225
+Ranges of pixel values in each channel of each colorspaces:
+	value range of R,G,B : 0~255
+	value range of Y,U,V : 16~235,16~240,16~240
+	value range of H,S,V : 0~180,0~255,0~255
+	value range of L,A,B : 0~100,-127~127,-127~127
+	value range of C,M,Y,K : 0~100

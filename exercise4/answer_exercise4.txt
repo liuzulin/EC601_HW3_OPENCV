@@ -1,0 +1,12 @@
+1.Look at Threshold.cpp and implement the code in Python, and observe the results for different threshold values. Comment on the results.
+
+Python code is in folder exercise4.
+The output of this program shows the same image with different thresholds applied to its grayscaled version. And Adaptive filter gives us a better results from original image.
+
+2.What are the disadvantages of binary threshold? 
+
+The BinaryThreshold will highlight part of the features but ignore the others. For example, in dealing with the Lenna picture, it highlights her face and ignore the background. It will be useful when we want to highligh some parts in an image, but it will ignore many details.
+
+3.When is Adaptive Threshold useful?
+
+Adaptive thresholding allows us to apply multiple thresholds at the same time. So it would be useful when we want to perform multiple processes on the same image at different levels.
